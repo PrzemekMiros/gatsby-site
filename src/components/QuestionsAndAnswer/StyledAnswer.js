@@ -33,9 +33,9 @@ export const StyledQuestionParagraph = styled.p`
 `;
 
 export const StyledChevronIcon = styled(FaChevronUp)`
-  width: 27px;
-  height: 27px;
-  font-size: 27px;
+  width: 21px;
+  height: 21px;
+  font-size: 21px;
   margin-right: 20px;
   color: ${({ theme }) => theme.colors.darkOrange};
   transform: ${({ animate }) => (animate ? "rotate(-180deg)" : "rotate(0)")};

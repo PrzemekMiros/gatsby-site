@@ -1,5 +1,4 @@
 import React from "react";
-import HerroAppleImage from "../../assets/images/svg/1.svg";
 
 import {
   StyledHeroLeftBar,
@@ -27,12 +26,6 @@ const HeroLeftBar = ({ contactRef }) => {
             Kontakt
           </Button>
         </StyledHeroParagraphBox>
-      </div>
-      <div>
-        <StyledImg src={HerroAppleImage} />
-      </div>
-      <div>
-        <StyledHeroLeftBarText>Zaufali mi</StyledHeroLeftBarText>
       </div>
     </StyledHeroLeftBar>
   );

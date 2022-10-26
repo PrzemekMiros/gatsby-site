@@ -31,23 +31,23 @@ const Contact = React.forwardRef((props, ref) => {
   return (
     <StyledContactSection ref={ref}>
       <div ref={hederTextRef}>
-        <StyledContactHeaderText>Skontaktuj się z nami</StyledContactHeaderText>
+        <StyledContactHeaderText>Skontaktuj się ze mną</StyledContactHeaderText>
 
         <StyledContactInfoH3>
-          Wypełnij krótki formularz, wyślij e-mail lub zadzwoń do nas!
+          Wypełnij krótki formularz, wyślij e-mail lub zadzwoń do mnie!
         </StyledContactInfoH3>
       </div>
       <StyledContactWrapper>
         <StyledTextWrapper ref={contactTextWrapperRef}>
-          <h4>Nasze biuro</h4>
+          <h4>Lokalizacja</h4>
           <StyledContactList>
-            <li>Krakowska 15, Kraków</li>
-            <li>15-000</li>
-            <li>Radek</li>
+            <li>Fryderyka Chopina Pruszków</li>
+            <li>05-800</li>
+            <li>Przemek</li>
             <li>
               <StyledIconLi src={iconEmail} />
-              <a href="mailto:serwis@naszokraj.eu">
-                <span>serwis@naszokraj.eu</span>
+              <a href="mailto:kontakt@futurewebstudio.pl">
+                <span>kontakt@futurewebstudio.pl</span>
               </a>
             </li>
             <li>
@@ -56,11 +56,11 @@ const Contact = React.forwardRef((props, ref) => {
                 <span>+48 509 411 729</span>
               </a>
             </li>
-            <li>Lidka</li>
+            <li>Przemek</li>
             <li>
               <StyledIconLi src={iconEmail} />
-              <a href="mailto:prezes@naszokraj.eu ">
-                <span>prezes@naszokraj.eu</span>
+              <a href="mailto:kontakt@futurewebstudio.pl">
+                <span>kontakt@futurewebstudio.pl</span>
               </a>
             </li>
             <li>

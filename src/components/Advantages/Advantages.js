@@ -61,15 +61,6 @@ const Advantages = ({ contactRef }) => {
           </StyledAdvantageWrapper>
         </StyledAdvantagesDivContent>
         <StyledAdvantagesDivContent>
-          <StyledAdvantageWrapper>
-            <div>
-              <img src={leaf} alt="leaf" />
-            </div>
-            <h3>Prosty panel strony</h3>
-            <h4>
-              Klik! I robisz co chcesz
-            </h4>
-          </StyledAdvantageWrapper>
           <StyledAdvantageWrapper swapColor={true}>
             <div>
               <img src={fire} alt="fire" />

@@ -10,7 +10,7 @@ export const StyledAdvantagesWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
   padding: 0 33px;
   @media (max-width: ${({ theme }) => theme.device.l}) {
     justify-content: center;

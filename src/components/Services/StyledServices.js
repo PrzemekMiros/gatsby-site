@@ -11,6 +11,7 @@ export const StyledFlexWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 51px;
+  margin-bottom: 31px;
   @media (max-width: ${({ theme }) => theme.device.l}) {
     flex-direction: column;
     align-items: center;

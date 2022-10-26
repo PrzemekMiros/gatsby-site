@@ -32,40 +32,25 @@ const QuestionsAndAnswer = React.forwardRef((props, ref) => {
           <StyledQuestionsH2>Najczęściej zadawane pytania</StyledQuestionsH2>
 
           <Answer
-            answer="Tak! Przyjedziemy, doradzimy, przygotujemy ofertę 
-          na sprzęt i wykonanie w której będą 2-3 urządzenia do wyboru. 
-          W razie potrzeby polecimy też fachowego kierownika budowy lub 
-          kominiarza."
-            question="Jak najwygodniej mogę się z Wami skontaktować?"
+            answer="Wykonanie podstawowej strony od projektu do opublikowania zajmuje 2 – 4 tygodnie. Bardziej zaawansowane projekty zajmują 1 – 3 miesiące."
+            question="Ile trwa wykonanie strony www?"
             hasMarginTop={true}
           />
           <Answer
-            answer="Tak! Przyjedziemy, doradzimy, przygotujemy ofertę 
-          na sprzęt i wykonanie w której będą 2-3 urządzenia do wyboru. 
-          W razie potrzeby polecimy też fachowego kierownika budowy lub 
-          kominiarza."
-            question="Czy mogę liczyć na rzetelną podpowiedź w wyborze kotła?"
+            answer="Współpracuje zdalnie z klientami z całej Polski. Wszystkie materiały przesyłam za pomocą poczty email lub chmur typu WeTransfer, korzystam z komunikatorów np. Trello."
+            question="Czy możliwa jest współpraca na odległość?"
           />
           <Answer
-            answer="Tak! Przyjedziemy, doradzimy, przygotujemy ofertę 
-          na sprzęt i wykonanie w której będą 2-3 urządzenia do wyboru. 
-          W razie potrzeby polecimy też fachowego kierownika budowy lub 
-          kominiarza."
-            question="Czy mogę liczyć na rzetelną podpowiedź w wyborze kotła?"
+            answer="Koszt budowy jest bardzo zróżnicowany. Zależy od złożoności witryny, technologii jaka zostanie wykorzystana oraz funkcjonalności jakie będzie posiadać. Podstawowa strona typu one page (oparta na jednej długiej podstronie) zawierająca do 7 sekcji, slider, formularz kontaktowy, live chat oraz integracje z social media to koszt od 1000zł"
+            question="Jaki jest koszt budowy strony internetowej"
           />
           <Answer
-            answer="Tak! Przyjedziemy, doradzimy, przygotujemy ofertę 
-          na sprzęt i wykonanie w której będą 2-3 urządzenia do wyboru. 
-          W razie potrzeby polecimy też fachowego kierownika budowy lub 
-          kominiarza."
-            question="Czy pracujecie wg jakiegoś konkretnego schematu?"
+            answer="Stworzenie strony internetowej nie wymaga od Ciebie dużego zaangażowania. Po dostarczeniu materiałów zajmę się zaplanowaniem mapy strony, projektem graficznym i przystosowaniem treści pod kątem pozycjonowania. Po zaakceptowaniu prze Ciebie projektu przystępuje do kodowania."
+            question="Co muszę przygotować?"
           />
           <Answer
-            answer="Tak! Przyjedziemy, doradzimy, przygotujemy ofertę 
-          na sprzęt i wykonanie w której będą 2-3 urządzenia do wyboru. 
-          W razie potrzeby polecimy też fachowego kierownika budowy lub 
-          kominiarza."
-            question="Czy macie działalność stacjonarną czy dojeżdżacie do klienta?"
+            answer="Tak. Strona będzie Twoją własnością. Po jednorazowej opłacie za kompleksowe wykonanie i umieszczenie na serwerze nie ma żadnych ukrytych kosztów w formie abonamentu itp."
+            question="Czy strona będzie moja na właśność?"
           />
         </div>
       </StyledQuestionsWrapper>

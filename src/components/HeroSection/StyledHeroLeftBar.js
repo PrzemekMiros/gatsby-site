@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledHeroLeftBar = styled.div`
   width: 60%;
   height: 100%;
+  background-color: #fff9f8;
 
   @media (max-width: ${({ theme }) => theme.device.m}) {
     width: 100%;
@@ -78,13 +79,6 @@ export const StyledHeroParagraph = styled.p`
   }
 `;
 
-export const StyledHeroLeftBarText = styled.h2`
-  font-size: 17px;
-  font-weight: bold;
-  font-family: "MulishBold";
-  color: ${({ theme }) => theme.colors.gray};
-  transform: translateY(-40px);
-`;
 
 export const StyledImg = styled.img`
   transform: translateY(-240px);

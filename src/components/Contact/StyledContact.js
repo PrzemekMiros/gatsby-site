@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledContactSection = styled.div`
   width: 100%;
-  padding: 28px 0;
+  padding: 65px 0;
   background-color: ${({ theme }) => theme.colors.white};
   overflow: hidden;
   > div {
