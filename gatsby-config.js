@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `nasz-okraj`,
+  pathPrefix: `futureweb`,
   siteMetadata: {
     title: "projekt",
   },

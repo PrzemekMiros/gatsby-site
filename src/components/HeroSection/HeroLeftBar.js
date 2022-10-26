@@ -18,11 +18,10 @@ const HeroLeftBar = ({ contactRef }) => {
       <div>
         <StyledHeroParagraphBox>
           <StyledHeroH2>
-            Podtrzymujemy <span>domowe ognisko</span>
+            Pokaż się <br /> <span>z dobrej strony</span>
           </StyledHeroH2>
           <StyledHeroParagraph>
-            Prowadzimy kompleksowy serwis oraz wymianę pieców gazowych. Jesteśmy autoryzowanymi
-            przedstawicielami marek dostaraczającyh ciepło.
+          Planuję, szkicuje, śledzę trendy i nowinki techniczne. Koduje, optymalizuje, testuje i wdrażam. Stwórz ze mną stronę www której nie da się zapomnieć 
           </StyledHeroParagraph>
           <Button onClick={() => contactRef.current.scrollIntoView({ behavior: "smooth" })}>
             Kontakt
