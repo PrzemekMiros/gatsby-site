@@ -34,50 +34,38 @@ const Services = React.forwardRef((props, ref) => {
           <StyledTextWrapper ref={textRef}>
             <h2>W czym mogę Ci pomóc?</h2>
             <h3>
-              To my - Lidka i Radek. Możesz nam zlecić <br /> takie działania:
+              Zobacz co zyskasz na współpracy:
             </h3>
             <StyledServiceList>
               <li>
                 <span>
                   <img src={IconCheck} alt="check" />
                 </span>
-                Instalacja / wymiana gazowych i elektrycznych kotłów 1- i 2-funkcyjnych
+                Strony internetowe
               </li>
               <li>
                 <span>
                   <img src={IconCheck} alt="check" />
                 </span>
-                Instalacja / wymiana podgrzewaczy elektrycznych
+                Serwisy i portale internetowe
               </li>
               <li>
                 <span>
                   <img src={IconCheck} alt="check" />
                 </span>
-                Wykonanie / modernizacja kompletnych instalacji CO
+                Projekty graficzne 
               </li>
               <li>
                 <span>
                   <img src={IconCheck} alt="check" />
                 </span>
-                Wykonanie / modernizacja instalacji gazowych
+                Kodowanie szablonów
               </li>
               <li>
                 <span>
                   <img src={IconCheck} alt="check" />
                 </span>
-                Wykonanie / modernizacja instalacji wodnych I kanalizacyjnych
-              </li>
-              <li>
-                <span>
-                  <img src={IconCheck} alt="check" />
-                </span>
-                Wykonanie / modernizacja instalacji elektrycznych
-              </li>
-              <li>
-                <span>
-                  <img src={IconCheck} alt="check" />
-                </span>
-                Instalacja klimatyzacji
+                Optymalizacja SEO
               </li>
             </StyledServiceList>
           </StyledTextWrapper>

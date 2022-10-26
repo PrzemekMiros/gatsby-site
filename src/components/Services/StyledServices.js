@@ -50,8 +50,8 @@ export const StyledServiceList = styled.ul`
     font-family: "MulishBold";
     font-weight: bold;
     > span {
-      margin-right: 41px;
-      transform: translateY(2px);
+      margin-right: 21px;
+      transform: translateY(3px);
     }
   }
   @media (max-width: ${({ theme }) => theme.device.m}) {

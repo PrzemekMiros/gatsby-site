@@ -32,11 +32,9 @@ const Advantages = ({ contactRef }) => {
     <StyledAdvantagesSection>
       <StyledAdvantagesWrapper ref={advantageWrapper1}>
         <StyledAdvantagesDivContent>
-          <h2>Zalety regularnych przeglądów i konserwacji kotła</h2>
+          <h2>Na jakie aspekty kładę nacisk</h2>
           <h3>
-            Przeglądów dokonujemy u klientów przynajmniej raz w roku. Ściśle trzymamy się wytycznych
-            producenta urządzenia oraz przepisów prawa budowlanego. Regularność i terminowość
-            naprawdę się opłaca.
+          Planuję, szkicuje, śledzę trendy i nowinki techniczne. Koduje, optymalizuje, testuje i wdrażam. Stwórz ze mną stronę www której nie da się zapomnieć 
           </h3>
           <Button onClick={() => contactRef.current.scrollIntoView({ behavior: "smooth" })}>
             Kontakt
@@ -47,20 +45,18 @@ const Advantages = ({ contactRef }) => {
             <div>
               <img src={coins} alt="coins" />
             </div>
-            <h3>Oszczędności</h3>
+            <h3>Responsywna strona</h3>
             <h4>
-              Paliwo gazowe to lwia część budżetów domowych. Inwestycje w sprzęt szybko się
-              zwracają.
+            Elastyczny layout
             </h4>
           </StyledAdvantageWrapper>
           <StyledAdvantageWrapper displayOnSmallScrean={false}>
             <div>
               <img src={home} alt="home" />
             </div>
-            <h3>Przyjazny dom</h3>
+            <h3>Indywidualny projekt</h3>
             <h4>
-              Ogrzewanie to fundament domowej atmosfery. Aby tak było, ciepło musi być właściwie
-              rozprowadzone.
+              Dopasowany do branży
             </h4>
           </StyledAdvantageWrapper>
         </StyledAdvantagesDivContent>
@@ -69,18 +65,18 @@ const Advantages = ({ contactRef }) => {
             <div>
               <img src={leaf} alt="leaf" />
             </div>
-            <h3>Ekologia</h3>
+            <h3>Prosty panel strony</h3>
             <h4>
-              Idealnie dobrany piec pozwala optymalnie wykorzystać energię, bez strat dla klimatu.
+              Klik! I robisz co chcesz
             </h4>
           </StyledAdvantageWrapper>
           <StyledAdvantageWrapper swapColor={true}>
             <div>
               <img src={fire} alt="fire" />
             </div>
-            <h3>Bezpieczeństwo</h3>
+            <h3>Optymalizacja</h3>
             <h4>
-              Sprawny piec w domu to nie tylko ciepło. To obowiązek, dla bezpieczeństwa domowników.
+              Wysoka wydajność
             </h4>
           </StyledAdvantageWrapper>
         </StyledAdvantagesDivContent>

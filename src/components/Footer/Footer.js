@@ -41,15 +41,15 @@ const Footer = React.forwardRef((props, ref) => {
         <StyledFooterImg fixed={data.file.childImageSharp.fixed} />
       </StyledFooterWrapper>
       <StyledFooterWrapper ref={footerLinkRef}>
-        <StyledFooterButton onClick={() => scrollInto(ref[0])}>Strona Główna</StyledFooterButton>
+        <StyledFooterButton onClick={() => scrollInto(ref[0])}>Główna</StyledFooterButton>
         <StyledFooterButton onClick={() => scrollInto(ref[1])}>O nas</StyledFooterButton>
         <StyledFooterButton onClick={() => scrollInto(ref[2])}>Usługi</StyledFooterButton>
-        <StyledFooterButton onClick={() => scrollInto(ref[3])}>Baza Klienta</StyledFooterButton>
+        <StyledFooterButton onClick={() => scrollInto(ref[3])}>Wycena</StyledFooterButton>
         <StyledFooterButton onClick={() => scrollInto(ref[4])}>Kontakt</StyledFooterButton>
       </StyledFooterWrapper>
       <StyledFooterWrapper>
         <h5>
-          Stronę stworzyli: <br /> Agatha Design & Kryptonum Studio & Dobra Treść{" "}
+          Copywright 2022{" "}
         </h5>
       </StyledFooterWrapper>
     </StyledFooterSection>
