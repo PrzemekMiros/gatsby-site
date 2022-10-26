@@ -32,7 +32,7 @@ const HeroLeftBar = ({ contactRef }) => {
         <StyledImg src={HerroAppleImage} />
       </div>
       <div>
-        <StyledHeroLeftBarText>Nasze marki</StyledHeroLeftBarText>
+        <StyledHeroLeftBarText>Zaufali mi</StyledHeroLeftBarText>
       </div>
     </StyledHeroLeftBar>
   );

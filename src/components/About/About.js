@@ -18,10 +18,9 @@ const About = React.forwardRef((props, ref) => {
 
   return (
     <StyledAboutUsSection ref={ref}>
-      <StyledH3 ref={titleRef}>O nas</StyledH3>
+      <StyledH3 ref={titleRef}>O mnie</StyledH3>
       <StyledArticleAboutus ref={textRef}>
-        O piecach wiemy wszystko - od kotłów, poprzez paliwo, po instalacje hydrauliczne i grzewcze.
-        Jesteśmy pierwszą pomocą w przypadku awarii. Pomagamy dobrać idealny sprzęt.
+      Jestem partnerem i doradcą biznesowym a nie kolejną agencją. Postaw na specjalistyczne wsparcie i skutecznie rozwijaj swój biznes w sieci
       </StyledArticleAboutus>
     </StyledAboutUsSection>
   );

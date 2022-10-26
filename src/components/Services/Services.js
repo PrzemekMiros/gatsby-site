@@ -32,7 +32,7 @@ const Services = React.forwardRef((props, ref) => {
         <StyledH3>Usługi</StyledH3>
         <StyledFlexWrapper>
           <StyledTextWrapper ref={textRef}>
-            <h2>W czym możemy Ci pomóc?</h2>
+            <h2>W czym mogę Ci pomóc?</h2>
             <h3>
               To my - Lidka i Radek. Możesz nam zlecić <br /> takie działania:
             </h3>

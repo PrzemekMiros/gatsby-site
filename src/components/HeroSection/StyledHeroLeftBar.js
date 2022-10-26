@@ -52,7 +52,7 @@ export const StyledHeroParagraphBox = styled.div`
 export const StyledHeroH2 = styled.h2`
   font-family: "MulishBlack";
   font-weight: ${({ theme }) => theme.fontWeight.lxx};
-  padding-top: 83px;
+  padding-top: 183px;
   font-size: 48px;
   line-height: 1.25;
   color: ${({ theme }) => theme.colors.fullBlack};

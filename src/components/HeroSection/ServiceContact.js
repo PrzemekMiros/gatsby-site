@@ -9,7 +9,7 @@ const ServiceContact = ({ swapColor, furnace }) => {
         <StyledPhoneIcon />
         <span>509 411 729</span>
       </p>
-      <p>{furnace ? "Problem z piecem?" : "Serwis"}</p>
+      <p>{furnace ? "Zadzwoń" : "Napisz"}</p>
     </StyledServiceContact>
   );
 };
