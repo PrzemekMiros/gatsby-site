@@ -1,7 +1,12 @@
 module.exports = {
   pathPrefix: `futureweb`,
   siteMetadata: {
-    title: "projekt",
+    title: 'Site title',
+    description: 'Site description',
+    siteUrl: 'https://mwebs.pl',
+    author: 'Mateusz Woskowicz',
+    keywords: 'keyword1,keyword2',
+    image: 'link to the image'
   },
   plugins: [
     "gatsby-plugin-styled-components",
@@ -27,5 +32,8 @@ module.exports = {
         ],
       },
     },
+    'gatsby-plugin-react-helmet',
   ],
 };
+
+
